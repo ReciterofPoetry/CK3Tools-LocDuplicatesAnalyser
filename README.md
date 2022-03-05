@@ -1,1 +1,1 @@
-CK3Tools LocDuplicatesAnalyser
+Place this in any localisation/[language] folder and it will parse the localisation files for multiple occurrences of assigning a loc to any given object. It will deposit the output file in your desktop.
