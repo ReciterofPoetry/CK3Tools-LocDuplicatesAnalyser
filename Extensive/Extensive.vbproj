@@ -1,9 +1,9 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-	  <OutputType>Exe</OutputType>
-	  <RootNamespace>Extensive</RootNamespace>
-	  <TargetFramework>net6.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Extensive</RootNamespace>
+    <TargetFramework>net6.0</TargetFramework>
 	  <PublishSingleFile>true</PublishSingleFile>
 	  <SelfContained>true</SelfContained>
 	  <RuntimeIdentifier>win-x86</RuntimeIdentifier>

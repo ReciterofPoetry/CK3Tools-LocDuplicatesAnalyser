@@ -7,6 +7,7 @@ Module Extensive
         Dim ModDir As String = BaseDir.Split("localization", 2).First
 
         Dim TextFiles As List(Of String) = Directory.GetFiles(BaseDir, "*.yml", SearchOption.AllDirectories).ToList
+        TextFiles.RemoveAll(Function(x) x.Contains("replace") & Path.DirectorySeparatorChar OrElse x.Contains("replace") & Path.AltDirectorySeparatorChar)
 
         Dim OutputFile As String
         If File.Exists(ModDir & "/descriptor.mod") Then
